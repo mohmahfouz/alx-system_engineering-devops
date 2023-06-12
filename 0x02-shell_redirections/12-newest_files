@@ -1,6 +1,2 @@
 #!/bin/bash
-newest_files=$(find "$pwd" -type f -printf "%T@ %p\n" | sort -nr | head -n 10 | cut -d' ' -f2-)
-
-for file in $newest_files; do
-echo "$file"
-done
+ls -t | head -n 10
