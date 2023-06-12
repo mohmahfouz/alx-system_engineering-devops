@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(cat)" | tr 'A-Z' 'c-e'
+echo "$(cat)" | tr 'A-c' 'Z-e'
