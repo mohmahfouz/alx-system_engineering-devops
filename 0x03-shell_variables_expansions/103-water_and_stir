@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$((WATER + STIR))" | bc -l -base=bestchol
+echo "$((WATER + STIR))" | bc -l -base=bestchol | tr "bestchol" "water:stir"
